@@ -1,0 +1,571 @@
+/***************/
+
+
+/*   Whitney   */
+
+
+/***************/
+
+@font-face {
+	font-family: Whitney;
+	font-weight: 300;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Whitney/Whitney-300.woff) format("woff")
+}
+
+@font-face {
+	font-family: Whitney;
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Whitney/Whitney-400.woff) format("woff")
+}
+
+@font-face {
+	font-family: Whitney;
+	font-weight: 500;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Whitney/Whitney-500.woff) format("woff")
+}
+
+@font-face {
+	font-family: Whitney;
+	font-weight: 600;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Whitney/Whitney-600.woff) format("woff")
+}
+
+@font-face {
+	font-family: Whitney;
+	font-weight: 700;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Whitney/Whitney-700.woff) format("woff")
+}
+
+
+/***************/
+
+
+/*    Ginto    */
+
+
+/***************/
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 300;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-300.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-400.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 500;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-500.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-600.woff) format("woff") font-weight: 600;
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 700;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-700.woff) format("woff")
+}
+
+
+/****************/
+
+
+/* Ginto-Italic */
+
+
+/****************/
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 300;
+	font-style: italic;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-300-italic.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 400;
+	font-style: italic;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-400-italic.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 500;
+	font-style: italic;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-500-italic.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 600;
+	font-style: italic;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-600-italic.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 700;
+	font-style: italic;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto/Ginto-700-italic.woff) format("woff")
+}
+
+
+/**************/
+
+
+/* Ginto-Nord */
+
+
+/**************/
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 500;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-500.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-500.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 600;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-600.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-600.woff) format("woff")
+}
+
+@font-face {
+	font-family: Ginto;
+	font-weight: 700;
+	src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-700.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-700.woff) format("woff")
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.main {
+	background-image: url("https://cdn.jsdelivr.net/gh/danielsebesta/bakalari-discord@main/img/discord.png") !important;
+}
+
+* {
+	font-family: 'Whitney', sans-serif;
+}
+
+body {
+	background-image: url("https://cdn.jsdelivr.net/gh/danielsebesta/bakalari-discord@main/img/discord.png") !important;
+	font-family: 'Whitney', sans-serif;
+	background-size: auto;
+	background-position: center;
+}
+
+#middle[id] {
+	display: block;
+}
+
+.mobile-app-img {
+	display: none;
+}
+
+.mobile-app-text span {
+	display: none;
+	color: white;
+}
+
+.mobile-app-text:after {
+	color: white;
+	size: 2px;
+	content: 'Tento web není žádným způsobem spojen se společností Discord';
+}
+
+#loginLogo {
+	filter: brightness(0) invert(1);
+	animation: fadeIn 2s;
+	-webkit-animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
+	-o-animation: fadeIn 2s;
+	-ms-animation: fadeIn 2s;
+}
+
+#info {
+	display: none;
+}
+
+#outer {
+	background-image: url("https://cdn.jsdelivr.net/gh/danielsebesta/bakalari-discord@main/img/Discord.svg") !important;
+}
+
+.bk-login-schoolName {
+	color: white;
+	animation: fadeIn 2s;
+	-webkit-animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
+	-o-animation: fadeIn 2s;
+	-ms-animation: fadeIn 2s;
+	font-size: 1rem;
+	font-family: 'Ginto', sans-serif;
+}
+
+#loginBox {
+	background-color: #36393F !important;
+	border-radius: 0.5rem !important;
+	animation: fadeIn 2s;
+	-webkit-animation: fadeIn 2s;
+	-moz-animation: fadeIn 2s;
+	-o-animation: fadeIn 2s;
+	-ms-animation: fadeIn 2s;
+}
+
+.btn-login {
+	background: linear-gradient(-180deg, #5865F2 0%, #5865F2 93%) !important;
+	border: 0;
+	transition: color .3s ease, background-color .3s ease;
+	border-radius: 0.5rem !important;
+}
+
+.btn-login:hover {
+	background: linear-gradient(-180deg, #4752C4 0%, #4752C4 93%) !important;
+	border: 0;
+	border-radius: 0.5rem !important;
+}
+
+.forgotten-password {
+	color: rgba(255, 255, 255, 0.5) !important;
+	font-weight: normal !important;
+	text-decoration: none !important;
+}
+
+#loginBox input {
+	display: block;
+	padding: .75rem 1rem;
+	background-color: #303339;
+	color: #fff;
+	border-color: #232428;
+	text-align: left;
+	font-style: normal;
+}
+
+#loginBox input::placeholder {
+	color: #303339;
+	font-style: normal;
+	background-color: #303339;
+}
+
+#loginBox input:focus {
+	border-color: #00AFF4;
+	-webkit-box-shadow: none;
+	background-color: #303339;
+	box-shadow: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	border-color: inherit;
+	-webkit-box-shadow: none;
+	background-color: #303339;
+	box-shadow: none;
+}
+
+.inner {
+	background-color: black;
+}
+
+.bk-menu-empty {
+	background-color: #36393F;
+}
+
+ol,
+ul {
+	padding-left: 0 !important;
+	color: #9791A1;
+}
+
+.bk-menu-logo {
+	background-color: #2F3136 !important;
+}
+
+.bk-widget .bk-widget-header {
+	border-bottom: 0;
+}
+
+.bk-header-icon {
+	display: none;
+}
+
+.bk-header-caption {
+	font-family: 'Ginto', sans-serif;
+	margin-left: 0;
+}
+
+.bk-navtop .bk-portalMessages-icon,
+.bk-navtop .bk-schoolReport-icon {
+	display: none;
+}
+
+.bk-navtop {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.mark-line {
+	color: white;
+}
+
+.change-line {
+	color: white;
+}
+
+.change-description{
+	color: white !important;
+}
+
+
+.bk-header-more {
+	display: none;
+}
+
+.widget-placeholder {
+	width: 0px;
+	height: 0px;
+	padding: 8px;
+	background: url("https://cdn.jsdelivr.net/gh/danielsebesta/bakalari-discord@main/img/loading.gif");
+	background-size: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.widget-placeholder img {
+	visibility: hidden;
+}
+
+.service-logo {
+	border-radius: 5px;
+}
+
+.bk-separator {
+	display: none;
+}
+.bk-dash-controlButton{
+	background-color: #292B2F;
+}
+.bk-dash-controlButton > .bk-dash-control-icon{
+	color: #DCDDDE;
+}
+.dx-overlay-shader{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.container-fluid {
+	width: 5%;
+	text-align: left;
+	padding-right: 15px;
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: 0;
+}
+.bk-dash-controlButton .dropdown-content{
+background-color:#202225;
+}
+.bk-dash-controlButton .dropdown-content .dropdown-section > span{
+	border-bottom:0;
+}
+.bk-dash-controlButton .dropdown-content .dropdown-item:hover, .bk-dash-controlButton .dropdown-content .dropdown-item.btn-refresh-dashboard:hover > i{
+	background-color:#5865F2;
+}
+.bk-navtop .menu-dropdown:hover, .bk-navtop .menu-dropdown:hover .bk-separator{
+background-color:#32353B;
+}
+.bk-dash-controlButton:hover{
+background-color:#32353B;
+}
+.ico32-menu-uzivatel span{
+visibility: hidden;
+}
+.bk-navtop .menu-dropdown .dropdown-content{
+background-color: #202225;
+}
+.bk-navtop .menu-dropdown .dropdown-content .bk-menu-logout:hover, .bk-navtop .menu-dropdown .dropdown-content .bk-menu-logout:hover > span:last-child, .bk-navtop .menu-dropdown .dropdown-content .bk-menu-logout:hover > .bk-menu-avatar-logout{
+background: #5865F2;
+}
+.ico32-menu-uzivatel:before{
+	background-image: url("https://cdn.jsdelivr.net/gh/danielsebesta/bakalari-discord@main/img/discord-icon.svg");
+    background-size:25px;
+    background-position:center;
+    color: rgba(0,0,0,0);
+    background-repeat: no-repeat;
+}
+.bk-navtop .menu-dropdown:hover .bk-menu-avatar{
+	background-color:#5865F2;
+}
+.dx-popup-wrapper > .dx-overlay-content{
+    border: 0;
+    background: #36393F;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.15);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 6px;
+}
+.dx-popup-bottom{
+	background-color: #2F3136;
+}
+.dx-button-content{
+background-color:#5865F2;
+    border-color:#5865F2;
+}
+.dialog-text{
+    color:white;
+}
+.dx-button{
+	background-color:#5865F2;
+    border-color:#5865F2;
+}
+.dx-popup .dx-button.dx-state-hover, .bk-dxtable-admissions .dx-button.dx-state-hover, .bk-dxtable-admissions-detail .dx-button.dx-state-hover, .bk-dxtable-admissions-detail-rounds-exams .dx-button.dx-state-hover{
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    background-color: #4752C4;
+    border-color: #4752C4;
+    color: #fff;
+}
+    
+}
+.bk-widget-footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bk-widget-footer{
+	color: #c2c2c2;
+}
+.bk-widget .bk-widget-footer {
+	border-top: 0;
+}
+
+.bk-menu-hide {
+	display: none;
+}
+
+.bk-sidenav ul li a>span {
+	text-decoration: none;
+	vertical-align: middle;
+	display: table-cell;
+	font-size: 14px;
+	line-height: 15px;
+	font-weight: bold;
+	padding-left: 60px;
+	font-family: 'Inter', sans-serif !important;
+	padding-right: 20px;
+	background-color: #2F3136;
+}
+
+#_menu_nav {
+	color: #9791A1;
+}
+.bk-widget-substitution .change-line .change-type.added{
+	background-color: #57F287;
+    color: black;
+}
+.bk-widget-substitution .change-line:hover{
+	background-color: #5865F2;
+}
+.bk-widget-services .service-line .service-logo > img{
+	border-radius:5px;
+}
+.bk-widget-substitution .change-line .change-type.removed{
+	background-color: #ED4245;
+}
+.bk-widget-substitution .change-line .change-type.canceled{
+	background-color: #5865F2;
+}
+
+.bk-widget-marks .mark-line .mark-displayGrade.isNew{
+	color: #fff;
+    background-color: #ED4245;
+}
+.bk-widget-marks .mark-line .mark-displayGrade{
+width: 16px;
+    min-width: 16px;
+    max-width: 16px; 
+    height: 16px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bk-widget {
+	width: 340px;
+	background: #2F3136;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.20);
+	border-style: solid;
+	border-left-color: #5865F2;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	color: white;
+}
+
+.checkbox-wrap {
+	display: none;
+}
+.dx-popup-wrapper .dx-state-focused.dx-overlay-content{
+	border: none;
+}
+.bk-dxtable-admissions .dx-button, .bk-dxtable-admissions-detail .dx-button, .dx-popup .dx-button, .bk-dxtable-admissions-detail-rounds-exams .dx-button{
+	border: 1px solid #5865F2;
+}
